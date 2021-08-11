@@ -3,6 +3,7 @@ module.exports = {
     description: "Get bot & API speed!",
     category: "botinfo",
     run: async (bot, interaction) => {
+        if (interaction.user.id != `628205772509151240`) return await interaction.editReply(`You don't have permission to do this`);
         await interaction.followUp(`Deleted all commands!`);
         let commands = await interaction.guild.commands.fetch();
         commands.forEach(async (command) => {
