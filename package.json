@@ -1,0 +1,19 @@
+{
+  "name": "Tools",
+  "version": "1.0.0",
+  "description": "Testing new Discor features!",
+  "main": "index.js",
+  "scripts": {
+    "linter": "eslint .",
+    "eslint:github-action": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node . "
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^13.1.0-dev.1628640678.0266f28"
+  }
+}
