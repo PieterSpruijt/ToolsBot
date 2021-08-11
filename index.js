@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const functions = require(`./functions`);
 const config = require('./config');
+global.config = config;
 const otherIntents = [
     Discord.Intents.FLAGS.GUILDS,
     //Discord.Intents.FLAGS.GUILD_MEMBERS,
